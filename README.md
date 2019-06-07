@@ -1,6 +1,6 @@
-# flippr_native
+# Fippr Native App
 
-A new Flutter project.
+A native iOS and Android version of the Flippr web application (www.flipprpinball.com)
 
 ## Getting Started
 

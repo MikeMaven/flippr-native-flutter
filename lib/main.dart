@@ -9,8 +9,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Flippr.'),
-        ),
-      ),
-    );
+        ), //AppBar
+          body: Card(child: Column(children: <Widget>[
+            Image.asset('assets/barcade.jpg'),
+            Text('Flippr.')
+          ],),),
+      ), //Scaffold
+    ); //MaterialApp
   }
 }

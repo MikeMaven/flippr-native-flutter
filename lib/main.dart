@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './add_flip_sesh.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,11 +12,8 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Flippr.'),
         ), //AppBar
-          body: Card(child: Column(children: <Widget>[
-            Image.asset('assets/barcade.jpg'),
-            Text('Flippr.')
-          ],),),
-      ), //Scaffold
-    ); //MaterialApp
+          body: AddFlipSesh(),
+      ),
+    );
   }
 }
